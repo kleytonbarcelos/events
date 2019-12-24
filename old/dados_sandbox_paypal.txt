@@ -1,0 +1,86 @@
+Email ID:
+contato-facilitator@pixdata.com.br
+Password:
+Change password
+Phone Number:
+6802135533
+Account Type:
+Business
+Status:
+Verified
+Country:
+BR
+Notes:
+
+Classic Sandbox API Credentials
+
+Username:
+contato-facilitator_api1.pixdata.com.br
+Password:
+YG439XXTSEYQX2L5
+Signature:
+AD4Gt4vF-2jIWw4gY.iXpCHS1favAchIQ5zVxthZttn7t60CibNSgwwm
+REST Apps
+
+App name
+isegura
+
+Bank Account
+
+Account Number:
+51257387150
+Routing Number:
+BSCHBRSPXXX
+Credit Card
+
+Credit Card Number:
+4002353182285406
+Credit Card Type:
+VISA
+Expiration Date:
+06/2020
+PayPal
+
+Balance:
+.00 BRL
+
+
+
+
+
+--------------------------
+
+
+
+Email ID:
+contato-buyer@pixdata.com.br
+Password:
+Change password
+Phone Number:
+6804900980
+Account Type:
+Premier
+Status:
+Verified
+Country:
+BR
+Notes:
+
+Bank Account
+
+Account Number:
+157454185
+Routing Number:
+BSCHBRSPXXX
+Credit Card
+
+Credit Card Number:
+4002352453959855
+Credit Card Type:
+VISA
+Expiration Date:
+06/2020
+PayPal
+
+Balance:
+9999.00 BRL

@@ -1,0 +1,49 @@
+.logo_preta
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	padding-bottom:5px;
+}
+.logo_branca
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	padding-bottom:5px;
+}
+
+.logo_branca .fa-lock
+{
+	color: #fff;
+}
+
+.logo_preta .inscricao
+{
+	color:#666;
+}
+.logo_preta .segura
+{
+	color:#61BC00;
+	font-weight: bold;
+}
+.logo_preta .com
+{
+	font-size: 14px;
+	color:#666;
+	font-weight: bold;
+}
+
+.logo_branca .inscricao
+{
+	color:#ccc;
+}
+.logo_branca .segura
+{
+	color:#61BC00;
+	font-weight: bold;
+}
+.logo_branca .com
+{
+	font-size: 14px;
+	color:#ccc;
+	font-weight: bold;
+}

@@ -1,0 +1,34 @@
+SELECT
+    UPPER(clientes.nome) as "NOME",
+    UPPER(clientes.cpf) as "CPF",
+    UPPER(CONCAT(clientes.cidade, '-', clientes.uf)) as "CIDADE/UF",
+    UPPER(clientes.asma) as "ASMA",
+    UPPER(clientes.diabetes) as "DIABETES",
+    UPPER(clientes.disturbiocardiaco) as "DISTURBIO CARDÍACO",
+    UPPER(clientes.disturbiopressaoalta) as "DISTURBIO PRESSÃO ALTA",
+    UPPER(clientes.disturbiogastrico) as "DISTURBIO GASTRICO",
+    UPPER(clientes.disturbiourinario) as "DISTURBIO URINÁRIO",
+    UPPER(clientes.convulcoes) as "CONVULÇÕES",
+    UPPER(clientes.perdaconciencia) as "PERDA DE CONCIÊNCIA",
+    UPPER(clientes.alergiamedicamento) as "ALERGIA À MEDICAMENTOS",
+    UPPER(clientes.alergiamedicamentoresposta) as "RESPOSTA - ALERGIA À MEDICAMENTOS",
+    UPPER(clientes.outrasdoencas) as "POSSUI OUTRAS DOÊNÇAS",
+    UPPER(clientes.outrasdoencasresposta) as "RESPOSTA - POSSUI OUTRAS DOÊNÇAS",
+    UPPER(clientes.usoregularmedicamento) as "RESPOSTA - USO REGULAR DE MEDICAMENTO",
+    UPPER(clientes.usoregularmedicamentoresposta) as "RESPOSTA - USO REGULAR DE MEDICAMENTO",
+    UPPER(clientes.restricaoalimentar) as "RESTRIÇÃO ALIMENTAR",
+    UPPER(clientes.restricaoalimentarresposta) as "RESPOSTA - RESTRIÇÃO ALIMENTAR",
+    UPPER(clientes.tiposanguineo) as "TIPO SANGUÍNIO",
+    UPPER(clientes.planosaude) as "PLANO DE SAÚDE",
+    UPPER(clientes.planosauderesposta) as "RESPOSTA - PLANO DE SAÚDE",
+    UPPER(clientes.pessoaproxima) as "PESSOA",
+    UPPER(clientes.pessoaproximatelefone) as "PESSOA PRÓXIMA (TELEFONE)",
+    UPPER(clientes.pessoaproximacelular) as "PESSOA PRÓXIMA (CELULAR)"
+FROM
+    clientes, boletos
+WHERE
+    clientes.id=boletos.idsacado
+    AND
+    boletos.status="regular"
+ORDER BY
+    clientes.nome ASC;

@@ -1,0 +1,9 @@
+SELECT
+      clientes.camisa AS "Tamanho Camisa", COUNT(clientes.camisa) AS "Quantidade"
+FROM
+    clientes
+INNER JOIN faturas
+      ON clientes.id=faturas.cliente_id
+WHERE
+     faturas.evento_id=639550 AND faturas.status="regular" AND clientes.camisa<>""
+GROUP BY clientes.camisa;

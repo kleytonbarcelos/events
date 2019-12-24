@@ -1,0 +1,9 @@
+SELECT
+      clientes.nome AS "NOME", clientes.tiposanguineo AS "TIPO SANGUINEO"
+FROM
+    clientes
+INNER JOIN faturas
+      ON clientes.id=faturas.cliente_id
+WHERE
+     faturas.evento_id=639550 AND faturas.status="regular"
+ORDER BY nome ASC;
